@@ -1,0 +1,16 @@
+<%- include("partials/header"); -%>
+<nav class="navbar" style="background-color: #00bcd4;">
+  <a class="navbar-brand" href="/">Weather Report☀️</a>
+</nav>
+
+<div id="info">
+  <h3><strong><%=cityName%></strong></h3>
+  <img src="<%= imageURL %>" alt="">
+  <p><strong> Feels Like:</strong> <%=description%></p>
+  <p> <strong>Temperature:</strong> <%=temp%> <sup>o</sup>C</p>
+  <p><strong>Wind Speed:</strong> <%=windSpeed%> Knot</p>
+  <p><strong> Pressure:</strong> <%=pressure%> Pa</p>
+  <p><strong> Humidity: </strong><%=humidity%> g/kg<sup>-1</sup></p>
+</div>
+
+<%- include("partials/footer"); -%>

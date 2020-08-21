@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: white;
+  font-size: 1.7rem;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.btn {
+  background-color: white;
+  border-color: #b2ebf2;
+  color: black;
+}
+.btn:hover {
+  background-color: #79d70f;
+}
+#info{
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: center;
+}
+#content {
+  padding: 3% 7% 4% 3%;
+}
+#content h2 {
+  font-size: 1.5rem;
+}
+footer li {
+  display: inline;
+  margin: 0 2% 0 2%;
+}
+footer a {
+  color: darkblue;
+}
+footer a:hover {
+  color: white;
+}
+footer {
+  text-align: center;
+  background-color: #00bcd4;
+  color: white;
+  padding: 1% 0 0.5% 0;
+}

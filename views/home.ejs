@@ -1,0 +1,49 @@
+<%- include("partials/header"); -%>
+<nav class="navbar" style="background-color: #00bcd4;">
+  <a class="navbar-brand" href="/">Weather Report☀️</a>
+  <form class="form-inline" action="/" method="post">
+    <input
+      name="cityName"
+      class="form-control mr-sm-2"
+      type="search"
+      placeholder="City Name"
+    />
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+      Search
+    </button>
+  </form>
+</nav>
+<div id="content">
+  <h2><strong>What is a definition of weather?</strong></h2>
+  <p>
+    Weather is the state of the atmosphere, describing for example the
+    degree to which it is hot or cold, wet or dry, calm or stormy, clear or
+    cloudy. On Earth, most weather phenomena occur in the lowest level of
+    the planet's atmosphere, the troposphere, just below the stratosphere.
+    Weather refers to day-to-day temperature and precipitation activity,
+    whereas climate is the term for the averaging of atmospheric conditions
+    over longer periods of time.
+  </p>
+  <h2><strong> Why is weather forecasting so important?</strong></h2>
+  <p>
+    Weather forecasting is the application of science and technology to
+    predict the conditions of the atmosphere for a given location and time.
+    People have attempted to predict the weather informally for millennia
+    and formally since the 19th century. Weather forecasts are made by
+    collecting quantitative data about the current state of the atmosphere
+    at a given place and using meteorology to project how the atmosphere
+    will change. Once calculated by hand based mainly upon changes in
+    barometric pressure, current weather conditions, and sky condition or
+    cloud cover, weather forecasting now relies on computer-based models
+    that take many atmospheric factors into account.
+  </p>
+  <h2><strong>How to check weather in your city?</strong></h2>
+  <p>
+    You can enter your city name in the above search bar and know the
+    weather of your city. The weather application withdraws data from an
+    <a href="https://openweathermap.org/api">Open Weather Map API</a> and
+    displays it to the user. For accurate and reliable world weather
+    forecasts you can refer to this app.
+  </p>
+</div>
+<%- include("partials/footer"); -%>
