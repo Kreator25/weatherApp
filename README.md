@@ -31,6 +31,12 @@ and reliable world weather forecasts we can refer to this app.
 | `units` | `string` | Units |
 
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+  
 ## Run Locally
 
 Clone the project
